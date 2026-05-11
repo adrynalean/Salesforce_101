@@ -85,8 +85,49 @@ The first Phase 4 layout deployment succeeded for:
 - `Account-Account Layout`
 - `Case-Case Layout`
 
-Next Phase 4 candidates:
+## Second Checkpoint Scope
 
-- Custom object layouts for `Support_Plan__c`, `Product__c`, `Case_Feedback__c`, and `Integration_Log__c`
-- Related lists on Case for feedback and integration logs
+The second Phase 4 checkpoint adds custom object layouts and relationship navigation:
+
+- `Support_Plan__c-Support Plan Layout`
+- `Product__c-Product Layout`
+- `Case_Feedback__c-Case Feedback Layout`
+- `Integration_Log__c-Integration Log Layout`
+
+This checkpoint places each custom object's important fields on its default layout. It also adds related lists where parent-child navigation is useful:
+
+- Support Plan -> Accounts
+- Product -> Cases
+- Case -> Case Feedback
+- Case -> Integration Logs
+
+Why this matters:
+
+- A support manager can open a support plan and see which accounts use it.
+- A support agent can open a product/service line and see the cases tied to it.
+- A case worker can open a case and see feedback and integration attempts without switching tabs.
+
+## Metadata Iteration Note
+
+The first deploy attempt for this checkpoint failed because two manually chosen related-list column names were invalid for the layout metadata API.
+
+We fixed this by keeping the related lists but allowing Salesforce to use default columns. This is a common Salesforce development lesson:
+
+- The relationship itself is controlled by the lookup field.
+- The related list appears on a layout when the layout references that relationship.
+- Column customization can be tuned later after the relationship navigation is stable.
+
+Successful deployment included:
+
+- `Case-Case Layout`
+- `Case_Feedback__c-Case Feedback Layout`
+- `Integration_Log__c-Integration Log Layout`
+- `Product__c-Product Layout`
+- `Support_Plan__c-Support Plan Layout`
+
+Next Phase 4 candidates after this checkpoint:
+
 - A Lightning record page later, once the core metadata is stable
+- Compact layouts for better highlights panels
+
+Phase 4 is now functionally complete for the first version of the project.

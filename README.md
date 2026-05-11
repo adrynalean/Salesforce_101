@@ -8,7 +8,7 @@ Salesforce learning project for building SupportFlow HealthOps CRM, a portfolio-
 - Phase 2: Complete - Created and deployed the `SupportFlow CRM` Lightning app with initial standard navigation.
 - Phase 3: Complete - Created custom objects, fields, lookup relationships, tabs, app navigation updates, and admin permissions.
 - Phase 3.5: Complete - Pivoted the data model toward Confluent Health requirements with healthcare operations, compliance, data governance, and integration monitoring fields.
-- Phase 4: In progress - Account and Case layouts now expose the healthcare operations, compliance, data quality, and integration fields.
+- Phase 4: Complete - Account, Case, and custom object layouts now expose the healthcare operations, compliance, data quality, integration, and relationship navigation fields.
 
 ## Phase 2 App Navigation
 
