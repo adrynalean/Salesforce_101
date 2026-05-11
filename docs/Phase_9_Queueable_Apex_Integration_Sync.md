@@ -131,12 +131,12 @@ This phase demonstrates:
 ## Deployment Command
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\classes --target-org SupportFlowDev --test-level RunSpecifiedTests --tests CaseIntegrationSyncJobTest
+sf project deploy start --source-dir force-app\main\default\classes --target-org CareOpsDev --test-level RunSpecifiedTests --tests CaseIntegrationSyncJobTest
 ```
 
 ## Checkpoint Result
 
-Deployment succeeded in the `SupportFlowDev` org.
+Deployment succeeded in the `CareOpsDev` org.
 
 - Deploy ID: `0AfdL00000aLZpFSAW`
 - Test class: `CaseIntegrationSyncJobTest`

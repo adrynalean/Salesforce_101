@@ -8,7 +8,7 @@ In Salesforce, creating fields is only half the work. Users also need those fiel
 
 ### Account Layout
 
-Added a `SupportFlow HealthOps` section with:
+Added a `CareOps` section with:
 
 - `Support_Plan__c`
 - `Customer_Status__c`
@@ -74,7 +74,7 @@ This phase turns the schema from Phase 3.5 into an actual user experience.
 ## Deployment Command
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\layouts --target-org SupportFlowDev
+sf project deploy start --source-dir force-app\main\default\layouts --target-org CareOpsDev
 ```
 
 ## Checkpoint Result

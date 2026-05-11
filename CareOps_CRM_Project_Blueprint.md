@@ -1,8 +1,8 @@
-# SupportFlow HealthOps CRM Project Blueprint
+# CareOps CRM Project Blueprint
 
 ## 1. Project Summary
 
-SupportFlow HealthOps CRM is a Salesforce learning project that models a healthcare operations support workflow.
+CareOps CRM is a Salesforce learning project that models a healthcare operations support workflow.
 
 The app uses standard Salesforce objects, custom objects, validation rules, queues, Apex triggers, Apex services, Queueable Apex, and Apex tests to manage support cases, compliance context, integration status, and operational follow-up.
 
@@ -92,7 +92,7 @@ Integration Log:
 
 ## 5. User Experience
 
-The `SupportFlow CRM` Lightning app includes navigation for:
+The `CareOps CRM` Lightning app includes navigation for:
 
 - Home
 - Accounts

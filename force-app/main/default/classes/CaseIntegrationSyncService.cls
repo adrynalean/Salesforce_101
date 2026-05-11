@@ -1,5 +1,5 @@
 public with sharing class CaseIntegrationSyncService {
-    private static final String EXTERNAL_SYSTEM = 'HealthOps Integration Hub';
+    private static final String EXTERNAL_SYSTEM = 'CareOps Integration Hub';
 
     public static void syncCases(Set<Id> caseIds) {
         if (caseIds == null || caseIds.isEmpty()) {

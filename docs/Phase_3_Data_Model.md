@@ -2,7 +2,7 @@
 
 ## What We Built
 
-Phase 3 created the first real SupportFlow CRM data model. Phase 3.5 extends that model toward healthcare operations, compliance tracking, data governance, and integration monitoring.
+Phase 3 created the first real CareOps CRM data model. Phase 3.5 extends that model toward healthcare operations, compliance tracking, data governance, and integration monitoring.
 
 In Salesforce terms:
 
@@ -219,17 +219,17 @@ classDiagram
 Deploy metadata:
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\objects --source-dir force-app\main\default\tabs --source-dir force-app\main\default\applications\SupportFlow_CRM.app-meta.xml --source-dir force-app\main\default\profiles\Admin.profile-meta.xml --target-org SupportFlowDev
+sf project deploy start --source-dir force-app\main\default\objects --source-dir force-app\main\default\tabs --source-dir force-app\main\default\applications\CareOps_CRM.app-meta.xml --source-dir force-app\main\default\profiles\Admin.profile-meta.xml --target-org CareOpsDev
 ```
 
 Verify custom objects:
 
 ```powershell
-sf data query --target-org SupportFlowDev --query "SELECT QualifiedApiName, Label FROM EntityDefinition WHERE QualifiedApiName IN ('Support_Plan__c','Product__c','Case_Feedback__c') ORDER BY QualifiedApiName"
+sf data query --target-org CareOpsDev --query "SELECT QualifiedApiName, Label FROM EntityDefinition WHERE QualifiedApiName IN ('Support_Plan__c','Product__c','Case_Feedback__c') ORDER BY QualifiedApiName"
 ```
 
 Describe an object:
 
 ```powershell
-sf sobject describe --target-org SupportFlowDev --sobject Case
+sf sobject describe --target-org CareOpsDev --sobject Case
 ```

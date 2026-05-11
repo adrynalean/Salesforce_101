@@ -78,7 +78,7 @@ Queues support shared ownership, operational visibility, and Service Cloud-style
 ## Deployment Command
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\queues --target-org SupportFlowDev
+sf project deploy start --source-dir force-app\main\default\queues --target-org CareOpsDev
 ```
 
 ## Checkpoint Result
@@ -98,11 +98,11 @@ Verification confirmed:
 ## Verification Commands
 
 ```powershell
-sf data query --query "SELECT Id, DeveloperName, Name, Type FROM Group WHERE Type = 'Queue' AND DeveloperName IN ('Tier_1_Support','Escalation_Support','Integration_Monitoring') ORDER BY DeveloperName" --target-org SupportFlowDev
+sf data query --query "SELECT Id, DeveloperName, Name, Type FROM Group WHERE Type = 'Queue' AND DeveloperName IN ('Tier_1_Support','Escalation_Support','Integration_Monitoring') ORDER BY DeveloperName" --target-org CareOpsDev
 ```
 
 ```powershell
-sf data query --query "SELECT Queue.DeveloperName, SobjectType FROM QueueSobject WHERE Queue.DeveloperName IN ('Tier_1_Support','Escalation_Support','Integration_Monitoring') ORDER BY Queue.DeveloperName, SobjectType" --target-org SupportFlowDev
+sf data query --query "SELECT Queue.DeveloperName, SobjectType FROM QueueSobject WHERE Queue.DeveloperName IN ('Tier_1_Support','Escalation_Support','Integration_Monitoring') ORDER BY Queue.DeveloperName, SobjectType" --target-org CareOpsDev
 ```
 
 ## Platform Note

@@ -6,7 +6,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
-    <label>SupportFlow CRM</label>
+    <label>CareOps CRM</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>

@@ -98,7 +98,7 @@ This phase reinforces an important Salesforce design principle: use declarative 
 ## Deployment Command
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\objects\Case\validationRules --source-dir force-app\main\default\objects\Case_Feedback__c\validationRules --target-org SupportFlowDev
+sf project deploy start --source-dir force-app\main\default\objects\Case\validationRules --source-dir force-app\main\default\objects\Case_Feedback__c\validationRules --target-org CareOpsDev
 ```
 
 ## Checkpoint Result

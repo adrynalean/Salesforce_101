@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "SupportFlowCRM",
+  "name": "CareOpsCRM",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "64.0"

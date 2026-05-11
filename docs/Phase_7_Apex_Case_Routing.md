@@ -106,12 +106,12 @@ This phase demonstrates:
 ## Deployment Command
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\classes --source-dir force-app\main\default\triggers --target-org SupportFlowDev --test-level RunSpecifiedTests --tests CaseRoutingServiceTest
+sf project deploy start --source-dir force-app\main\default\classes --source-dir force-app\main\default\triggers --target-org CareOpsDev --test-level RunSpecifiedTests --tests CaseRoutingServiceTest
 ```
 
 ## Checkpoint Result
 
-Deployment succeeded in the `SupportFlowDev` org.
+Deployment succeeded in the `CareOpsDev` org.
 
 - Deploy ID: `0AfdL00000aJwl8SAC`
 - Test class: `CaseRoutingServiceTest`

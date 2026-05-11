@@ -1,11 +1,11 @@
-# Salesforce_101
+# CareOps CRM
 
-Salesforce learning project for building SupportFlow HealthOps CRM, a healthcare operations application using Salesforce configuration, security, automation, integrations, reporting, and Apex.
+Salesforce learning project for building CareOps CRM, a healthcare operations application using Salesforce configuration, security, automation, integrations, reporting, and Apex.
 
 ## Project Status
 
-- Phase 1: Complete - Salesforce DX project scaffolded, Salesforce CLI installed, and Developer Edition org authorized as `SupportFlowDev`.
-- Phase 2: Complete - Created and deployed the `SupportFlow CRM` Lightning app with initial standard navigation.
+- Phase 1: Complete - Salesforce DX project scaffolded, Salesforce CLI installed, and Developer Edition org authorized as `CareOpsDev`.
+- Phase 2: Complete - Created and deployed the `CareOps CRM` Lightning app with initial standard navigation.
 - Phase 3: Complete - Created custom objects, fields, lookup relationships, tabs, app navigation updates, and admin permissions.
 - Phase 3.5: Complete - Extended the data model with healthcare operations, compliance, data governance, and integration monitoring fields.
 - Phase 4: Complete - Account, Case, and custom object layouts now expose the healthcare operations, compliance, data quality, integration, and relationship navigation fields.
@@ -17,7 +17,7 @@ Salesforce learning project for building SupportFlow HealthOps CRM, a healthcare
 
 ## Phase 2 App Navigation
 
-The initial `SupportFlow CRM` app includes standard Salesforce tabs that already exist in the org:
+The initial `CareOps CRM` app includes standard Salesforce tabs that already exist in the org:
 
 - Home
 - Accounts

@@ -135,12 +135,12 @@ This phase demonstrates:
 ## Deployment Command
 
 ```powershell
-sf project deploy start --source-dir force-app\main\default\classes\IntegrationLogService.cls --source-dir force-app\main\default\classes\IntegrationLogService.cls-meta.xml --source-dir force-app\main\default\classes\IntegrationLogServiceTest.cls --source-dir force-app\main\default\classes\IntegrationLogServiceTest.cls-meta.xml --target-org SupportFlowDev --test-level RunSpecifiedTests --tests IntegrationLogServiceTest
+sf project deploy start --source-dir force-app\main\default\classes\IntegrationLogService.cls --source-dir force-app\main\default\classes\IntegrationLogService.cls-meta.xml --source-dir force-app\main\default\classes\IntegrationLogServiceTest.cls --source-dir force-app\main\default\classes\IntegrationLogServiceTest.cls-meta.xml --target-org CareOpsDev --test-level RunSpecifiedTests --tests IntegrationLogServiceTest
 ```
 
 ## Checkpoint Result
 
-Deployment succeeded in the `SupportFlowDev` org.
+Deployment succeeded in the `CareOpsDev` org.
 
 - Deploy ID: `0AfdL00000aK0qLSAS`
 - Test class: `IntegrationLogServiceTest`
