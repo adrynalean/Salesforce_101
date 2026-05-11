@@ -13,6 +13,7 @@ Salesforce learning project for building SupportFlow HealthOps CRM, a portfolio-
 - Phase 6: Complete - Added support queues for shared Case and integration follow-up ownership.
 - Phase 7: Complete - Added Apex Case routing automation with a trigger, handler, service class, and passing unit tests.
 - Phase 8: Complete - Added an Apex integration logging service that creates monitoring records, updates Case integration status, and includes unit tests.
+- Phase 9: Complete - Added Queueable Apex integration sync with async tests and reusable service-layer logic.
 
 ## Phase 2 App Navigation
 
@@ -71,6 +72,12 @@ See [Phase 7: Apex Case Routing](docs/Phase_7_Apex_Case_Routing.md).
 Phase 8 adds a reusable Apex service for recording external system sync results and updating related Cases.
 
 See [Phase 8: Integration Logging Service](docs/Phase_8_Integration_Logging_Service.md).
+
+## Phase 9 Queueable Apex Integration Sync
+
+Phase 9 adds async Apex that simulates sending Cases to an external healthcare integration hub and records the results.
+
+See [Phase 9: Queueable Apex Integration Sync](docs/Phase_9_Queueable_Apex_Integration_Sync.md).
 
 ## Job Alignment
 
