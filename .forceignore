@@ -1,0 +1,12 @@
+.git/
+.gitignore
+.sf/
+.sfdx/
+.vscode/
+node_modules/
+coverage/
+test-results/
+*.log
+*.tmp
+README.md
+SupportFlow_CRM_Project_Blueprint.md

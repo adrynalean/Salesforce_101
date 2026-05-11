@@ -1,0 +1,10 @@
+.sf/
+.sfdx/
+.vscode/
+node_modules/
+coverage/
+test-results/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
