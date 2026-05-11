@@ -2,7 +2,7 @@
 
 Phase 4 makes the data model usable for a real support team.
 
-In Salesforce, creating fields is only half the job. Users also need those fields to appear in useful places on record pages. The first Phase 4 checkpoint updates the standard Account and Case page layouts.
+In Salesforce, creating fields is only half the work. Users also need those fields to appear in useful places on record pages. The first Phase 4 checkpoint updates the standard Account and Case page layouts.
 
 ## What We Changed
 
@@ -60,15 +60,14 @@ A section groups fields into a business-friendly area, such as `Healthcare Opera
 
 Good sections make the app easier to use because users can scan the page by workflow instead of reading every field one by one.
 
-### Why This Is Job-Aligned
+### Why This Matters For The App
 
-The Confluent Health posting mentions:
+This phase connects the data model to the user experience:
 
-- Customizing and maintaining page layouts
-- Optimizing Salesforce environments
-- Supporting healthcare operations
-- Maintaining data quality and compliance visibility
-- Working with integrations and enterprise systems
+- Page layouts make new fields usable by support teams.
+- Healthcare operations fields make Case context visible.
+- Data quality and compliance fields support better record review.
+- Integration fields prepare the org for external system sync work.
 
 This phase turns the schema from Phase 3.5 into an actual user experience.
 
@@ -125,7 +124,7 @@ Successful deployment included:
 - `Product__c-Product Layout`
 - `Support_Plan__c-Support Plan Layout`
 
-Next Phase 4 candidates after this checkpoint:
+Possible follow-up improvements after this checkpoint:
 
 - A Lightning record page later, once the core metadata is stable
 - Compact layouts for better highlights panels

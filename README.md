@@ -1,13 +1,13 @@
 # Salesforce_101
 
-Salesforce learning project for building SupportFlow HealthOps CRM, a portfolio-ready healthcare operations application using Salesforce configuration, security, automation, integrations, reporting, and Apex.
+Salesforce learning project for building SupportFlow HealthOps CRM, a healthcare operations application using Salesforce configuration, security, automation, integrations, reporting, and Apex.
 
 ## Project Status
 
 - Phase 1: Complete - Salesforce DX project scaffolded, Salesforce CLI installed, and Developer Edition org authorized as `SupportFlowDev`.
 - Phase 2: Complete - Created and deployed the `SupportFlow CRM` Lightning app with initial standard navigation.
 - Phase 3: Complete - Created custom objects, fields, lookup relationships, tabs, app navigation updates, and admin permissions.
-- Phase 3.5: Complete - Pivoted the data model toward Confluent Health requirements with healthcare operations, compliance, data governance, and integration monitoring fields.
+- Phase 3.5: Complete - Extended the data model with healthcare operations, compliance, data governance, and integration monitoring fields.
 - Phase 4: Complete - Account, Case, and custom object layouts now expose the healthcare operations, compliance, data quality, integration, and relationship navigation fields.
 - Phase 5: Complete - Added validation rules to protect data quality and compliance-sensitive fields.
 - Phase 6: Complete - Added support queues for shared Case and integration follow-up ownership.
@@ -78,9 +78,3 @@ See [Phase 8: Integration Logging Service](docs/Phase_8_Integration_Logging_Serv
 Phase 9 adds async Apex that simulates sending Cases to an external healthcare integration hub and records the results.
 
 See [Phase 9: Queueable Apex Integration Sync](docs/Phase_9_Queueable_Apex_Integration_Sync.md).
-
-## Job Alignment
-
-This project is now aligned toward the Confluent Health Salesforce Developer posting.
-
-See [Confluent Health Job Alignment](docs/Confluent_Health_Job_Alignment.md).

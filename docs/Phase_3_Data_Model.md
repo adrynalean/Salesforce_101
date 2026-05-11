@@ -2,7 +2,7 @@
 
 ## What We Built
 
-Phase 3 created the first real SupportFlow CRM data model. Phase 3.5 pivots that model toward healthcare operations and the Confluent Health Salesforce Developer posting.
+Phase 3 created the first real SupportFlow CRM data model. Phase 3.5 extends that model toward healthcare operations, compliance tracking, data governance, and integration monitoring.
 
 In Salesforce terms:
 
@@ -74,7 +74,7 @@ Fields:
 
 Why it exists:
 
-The job posting specifically mentions integrations, API monitoring, and proactive error resolution. This object gives us a realistic place to log and report integration failures.
+Healthcare operations often depend on external systems, API monitoring, and proactive error resolution. This object gives us a realistic place to log and report integration failures.
 
 ## Standard Object Extensions
 
@@ -145,7 +145,7 @@ We initially made some fields required at the schema level.
 
 Then Salesforce rejected profile field permission deployment for a required field. For this project, we changed those fields to optional at the schema level.
 
-Later, Phase 5 will use validation rules for requirements like:
+Later, Phase 5 will use validation rules for business rules like:
 
 - Feedback rating must be between 1 and 5.
 - Closed cases require resolution notes.

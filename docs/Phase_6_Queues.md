@@ -71,9 +71,9 @@ Automation needs a destination.
 
 Before we build a Flow or Apex trigger that routes records, we need queues for the automation to route records into.
 
-## Job Alignment
+## Platform Value
 
-The Confluent Health posting mentions Salesforce administration, security controls, data access models, and Service Cloud-style operations. Queues connect to those areas because they control who works on records and how support teams share workloads.
+Queues support shared ownership, operational visibility, and Service Cloud-style work distribution. They control who can work on records and how support teams share workloads.
 
 ## Deployment Command
 

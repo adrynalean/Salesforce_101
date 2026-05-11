@@ -93,7 +93,7 @@ The `errorDisplayField` tells Salesforce which field should show the error. This
 
 ### Declarative Before Programmatic
 
-This phase is job-aligned because Salesforce roles often expect developers to know when to use Flow, validation rules, page layouts, and security configuration before writing custom Apex.
+This phase reinforces an important Salesforce design principle: use declarative tools for simple business rules before writing custom Apex.
 
 ## Deployment Command
 

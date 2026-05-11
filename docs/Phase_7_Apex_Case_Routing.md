@@ -92,9 +92,9 @@ WHERE Type = 'Queue'
 AND DeveloperName IN :developerNames
 ```
 
-## Job Alignment
+## Platform Concepts Demonstrated
 
-This phase aligns with Salesforce Developer job requirements because it demonstrates:
+This phase demonstrates:
 
 - Apex triggers
 - SOQL

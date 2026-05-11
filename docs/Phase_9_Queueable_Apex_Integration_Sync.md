@@ -1,6 +1,6 @@
 # Phase 9: Queueable Apex Integration Sync
 
-Phase 9 shifts the project further into Apex-heavy Salesforce development.
+Phase 9 deepens the Apex side of the project.
 
 The goal is to simulate an asynchronous integration sync for Cases. In real Salesforce orgs, integration work often runs outside the original user transaction so the user does not have to wait for external systems.
 
@@ -116,9 +116,9 @@ That matters because the queueable job should not duplicate logging behavior. It
 - Assign logs to the monitoring queue
 - Respect the validation rule requiring external IDs for errored Cases
 
-## Job Alignment
+## Platform Concepts Demonstrated
 
-This phase aligns strongly with Apex-heavy Salesforce Developer roles because it demonstrates:
+This phase demonstrates:
 
 - Queueable Apex
 - Async transaction design

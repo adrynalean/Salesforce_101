@@ -120,9 +120,9 @@ The service maps log statuses to Case statuses:
 | `Warning` | `Pending` |
 | `Retry Scheduled` | `Pending` |
 
-## Job Alignment
+## Platform Concepts Demonstrated
 
-This phase aligns with Salesforce Developer job requirements because it demonstrates:
+This phase demonstrates:
 
 - Apex service-layer design
 - Integration monitoring patterns
