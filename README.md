@@ -10,6 +10,7 @@ Salesforce learning project for building SupportFlow HealthOps CRM, a portfolio-
 - Phase 3.5: Complete - Pivoted the data model toward Confluent Health requirements with healthcare operations, compliance, data governance, and integration monitoring fields.
 - Phase 4: Complete - Account, Case, and custom object layouts now expose the healthcare operations, compliance, data quality, integration, and relationship navigation fields.
 - Phase 5: Complete - Added validation rules to protect data quality and compliance-sensitive fields.
+- Phase 6: Complete - Added support queues for shared Case and integration follow-up ownership.
 
 ## Phase 2 App Navigation
 
@@ -50,6 +51,12 @@ See [Phase 4: Record Experience](docs/Phase_4_Record_Experience.md).
 Phase 5 adds declarative business rules for case resolution, escalation, PHI classification, integration errors, and feedback ratings.
 
 See [Phase 5: Validation Rules](docs/Phase_5_Validation_Rules.md).
+
+## Phase 6 Queues
+
+Phase 6 adds queues for shared work ownership across support and integration monitoring.
+
+See [Phase 6: Queues](docs/Phase_6_Queues.md).
 
 ## Job Alignment
 
