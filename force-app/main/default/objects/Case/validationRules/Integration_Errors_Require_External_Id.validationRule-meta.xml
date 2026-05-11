@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Errors_Require_External_Id</fullName>
+    <active>true</active>
+    <description>Requires an external system identifier when a case is marked as an integration error.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Integration_Status__c, &quot;Error&quot;),
+    ISBLANK(External_System_Id__c)
+)</errorConditionFormula>
+    <errorDisplayField>External_System_Id__c</errorDisplayField>
+    <errorMessage>Enter an external system ID when integration status is Error.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PHI_Cases_Require_HIPAA_Category</fullName>
+    <active>true</active>
+    <description>Requires cases marked as containing PHI to use the HIPAA compliance category.</description>
+    <errorConditionFormula>AND(
+    Contains_PHI__c = TRUE,
+    NOT(ISPICKVAL(Compliance_Category__c, &quot;HIPAA&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Compliance_Category__c</errorDisplayField>
+    <errorMessage>Select HIPAA as the compliance category when a case contains PHI.</errorMessage>
+</ValidationRule>
