@@ -265,7 +265,7 @@ Add custom fields:
 
 #### Case
 
-- `Product__c`: Lookup to `Product__c`
+- `Affected_Product__c`: Lookup to `Product__c`
 - `SLA_Due_Date__c`: Date/Time
 - `Escalated__c`: Checkbox
 - `Escalation_Reason__c`: Text Area
@@ -631,7 +631,7 @@ classDiagram
         Origin
         AccountId
         ContactId
-        Product__c
+        Affected_Product__c
         SLA_Due_Date__c
         Escalated__c
         Escalation_Reason__c
@@ -940,4 +940,3 @@ Start with environment setup:
 5. Authorize the org.
 
 After that, begin Phase 2 by creating the `SupportFlow CRM` Lightning app.
-
