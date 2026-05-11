@@ -8,7 +8,7 @@ Salesforce learning project for building SupportFlow HealthOps CRM, a portfolio-
 - Phase 2: Complete - Created and deployed the `SupportFlow CRM` Lightning app with initial standard navigation.
 - Phase 3: Complete - Created custom objects, fields, lookup relationships, tabs, app navigation updates, and admin permissions.
 - Phase 3.5: Complete - Pivoted the data model toward Confluent Health requirements with healthcare operations, compliance, data governance, and integration monitoring fields.
-- Phase 4: Next - Configure page layouts and record pages so the new fields are easy to use in Salesforce.
+- Phase 4: In progress - Account and Case layouts now expose the healthcare operations, compliance, data quality, and integration fields.
 
 ## Phase 2 App Navigation
 
@@ -37,6 +37,12 @@ Phase 3 added:
 - Admin profile visibility and field permissions
 
 See [Phase 3: Data Model Notes](docs/Phase_3_Data_Model.md).
+
+## Phase 4 Record Experience
+
+Phase 4 begins by placing the new healthcare operations, compliance, data quality, and integration fields onto Account and Case layouts.
+
+See [Phase 4: Record Experience](docs/Phase_4_Record_Experience.md).
 
 ## Job Alignment
 
