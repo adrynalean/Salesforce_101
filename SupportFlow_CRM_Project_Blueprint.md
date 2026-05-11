@@ -1,5 +1,27 @@
 # SupportFlow CRM Project Blueprint
 
+## 0. Confluent Health Pivot
+
+This project is now being shaped toward the Confluent Health Salesforce Developer posting.
+
+The original SupportFlow CRM idea still works, but the business framing is now more specific:
+
+> **SupportFlow HealthOps CRM**: a Salesforce healthcare operations app for managing patient and clinic support requests, Service Cloud cases, SLA escalation, data quality, compliance-sensitive work, integration monitoring, reporting, and future Apex/LWC automation.
+
+The project should demonstrate these job-aligned skills:
+
+- Salesforce administration and optimization
+- Security controls, profile visibility, field-level security, and permission modeling
+- Custom objects, fields, tabs, page layouts, Lightning apps, and record experience
+- Flow-ready business process automation
+- Apex trigger/service architecture
+- Integration logging, API error monitoring, retry tracking, and callout testing
+- Data governance, external IDs, deduplication readiness, and reporting
+- Healthcare compliance awareness through HIPAA/SOC 2/GDPR-oriented fields
+- User enablement through documentation and adoption notes
+
+The deployed app name remains `SupportFlow CRM`, but the portfolio story should refer to it as **SupportFlow HealthOps CRM**.
+
 ## 1. Project Overview
 
 **SupportFlow CRM** is a Salesforce portfolio project for learning Salesforce development through a realistic customer support application.

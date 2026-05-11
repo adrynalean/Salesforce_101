@@ -15,6 +15,7 @@
     <tabs>Support_Plan__c</tabs>
     <tabs>Product__c</tabs>
     <tabs>Case_Feedback__c</tabs>
+    <tabs>Integration_Log__c</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-report</tabs>

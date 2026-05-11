@@ -2,7 +2,7 @@
 
 ## What We Built
 
-Phase 3 created the first real SupportFlow CRM data model.
+Phase 3 created the first real SupportFlow CRM data model. Phase 3.5 pivots that model toward healthcare operations and the Confluent Health Salesforce Developer posting.
 
 In Salesforce terms:
 
@@ -58,6 +58,24 @@ Why it exists:
 
 It lets us report on customer satisfaction by account, product, and support process.
 
+### `Integration_Log__c`
+
+Represents API or enterprise system integration events.
+
+Fields:
+
+- `Related_Case__c`: lookup to the case involved in the integration.
+- `External_System__c`: name of the external platform.
+- `Status__c`: Success, Warning, Error, or Retry Scheduled.
+- `Status_Code__c`: numeric response/status code.
+- `Message__c`: error or response detail.
+- `Retry_Count__c`: number of retry attempts.
+- `Last_Attempted_At__c`: most recent integration attempt time.
+
+Why it exists:
+
+The job posting specifically mentions integrations, API monitoring, and proactive error resolution. This object gives us a realistic place to log and report integration failures.
+
 ## Standard Object Extensions
 
 ### `Account`
@@ -76,6 +94,12 @@ Salesforce already has a strong standard object for customer companies, so we ex
 Added fields:
 
 - `Affected_Product__c`: lookup to `Product__c`.
+- `Request_Type__c`: healthcare operations request category.
+- `Clinic_Location__c`: clinic or operating location involved.
+- `Contains_PHI__c`: marks possible protected health information.
+- `Compliance_Category__c`: Operational, HIPAA, SOC 2, or GDPR.
+- `External_System_Id__c`: identifier from an external enterprise system.
+- `Integration_Status__c`: sync state with external systems.
 - `SLA_Due_Date__c`: date/time by which the case should be handled.
 - `Escalated__c`: checkbox for escalated cases.
 - `Escalation_Reason__c`: explanation for escalation.
