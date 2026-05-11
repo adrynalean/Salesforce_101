@@ -11,6 +11,7 @@ Salesforce learning project for building SupportFlow HealthOps CRM, a portfolio-
 - Phase 4: Complete - Account, Case, and custom object layouts now expose the healthcare operations, compliance, data quality, integration, and relationship navigation fields.
 - Phase 5: Complete - Added validation rules to protect data quality and compliance-sensitive fields.
 - Phase 6: Complete - Added support queues for shared Case and integration follow-up ownership.
+- Phase 7: Complete - Added Apex Case routing automation with a trigger, handler, service class, and passing unit tests.
 
 ## Phase 2 App Navigation
 
@@ -57,6 +58,12 @@ See [Phase 5: Validation Rules](docs/Phase_5_Validation_Rules.md).
 Phase 6 adds queues for shared work ownership across support and integration monitoring.
 
 See [Phase 6: Queues](docs/Phase_6_Queues.md).
+
+## Phase 7 Apex Case Routing
+
+Phase 7 adds the first Apex trigger architecture for automatically routing Cases into support queues, including unit tests for the routing scenarios.
+
+See [Phase 7: Apex Case Routing](docs/Phase_7_Apex_Case_Routing.md).
 
 ## Job Alignment
 
