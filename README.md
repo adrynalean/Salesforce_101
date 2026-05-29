@@ -45,7 +45,7 @@ See [Phase 3: Data Model Notes](docs/Phase_3_Data_Model.md).
 
 ## Phase 4 Record Experience
 
-Phase 4 begins by placing the new healthcare operations, compliance, data quality, and integration fields onto Account and Case layouts.
+Phase 4 begins by placing this new healthcare operations, compliance, data quality, and integration fields onto Account and Case layouts.
 
 See [Phase 4: Record Experience](docs/Phase_4_Record_Experience.md).
 
